@@ -1,0 +1,82 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.game-field {
+  width: 1400px;
+  margin: 48px auto 24px;
+  position: relative;
+}
+
+.game-field-img {
+  width: 100%;
+} 
+
+.description {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.description p {
+  text-align: center;
+}
+
+.checkpoint {
+  width: 40px;
+  height: 5px;
+  background-color: red;
+}
+
+.checkpoint1 {
+  position: absolute;
+  left: 170px;
+  bottom: 90px;
+}
+
+.checkpoint2 {
+  position: absolute;
+  left: 245px;
+  bottom: 170px;
+}
+
+.checkpoint3 {
+  position: absolute;
+  left: 305px;
+  bottom: 240px;
+}
+
+.checkpoint4 {
+  position: absolute;
+  left: 420px;
+  bottom: 250px;
+}
+
+.checkpoint5 {
+  position: absolute;
+  left: 510px;
+  bottom: 290px;
+}
+
+.checkpoint6 {
+  position: absolute;
+  left: 590px;
+  bottom: 365px;
+}
+
+#climber-img {
+  width: 36px;
+  height: 60px;
+  position: absolute;
+  left: 170px;
+  bottom: 30px;
+}
+
+#flag-img {
+  position: absolute;
+  height: 60px;
+  width: auto;
+  left: 570px;
+  bottom: 365px;
+  visibility: hidden;
+}
